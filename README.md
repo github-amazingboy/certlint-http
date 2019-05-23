@@ -9,7 +9,7 @@ docker build -t certlint-http .
 #show images
 docker images
 #run container
-docker run -itd -name certlint -p 8000:8000 certlint-http
+docker run -itd --name certlint -p 8000:8000 certlint-http
 ```
 # install by docker repo
 ``` shell
